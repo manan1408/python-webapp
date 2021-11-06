@@ -14,4 +14,4 @@ def SendEmail(recipient , message):
     server.close() 
     
 
-SendEmail(recipient , message)  
+SendEmail(recipient , message) # it  sends the mail to the recipient 
