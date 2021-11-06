@@ -9,8 +9,8 @@ def SendEmail(recipient , message):
     server = smtplib.SMTP("smtp.gmail.com" , 587)  # 587 = port number
     server.ehlo() # check the smtp connection 
     server.starttls()  # start the conection 
-    server.login("SenderEmail@gmail.com" , "SendersEmailPassword")  
-    server.sendmail("senderEmail@gmail.com" , recipient , message)
+    server.login("mananbshah1@gmail.com" , "SendersEmailPassword")  
+    server.sendmail("mananbshah14@gmail.com" , recipient , message)
     server.close() 
     
 
